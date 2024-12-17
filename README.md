@@ -21,10 +21,31 @@ venv/Scripts/activate.bat
 ```bash
 python main.py input.txt
 ```
+# Конфигурация веб-сервера
+
+var server_host @"192.168.0.1"
+var server_port 80
+var protocol @"http"
+
+
+# Конфигурация мобильного приложения
+# Параметры интерфейса
+var theme @"dark"
+var primary_color @"#4CAF50"
+var font_size 14
+var language @"ru"
+
+
+# Конфигурация IoT устройства
+# Параметры сенсора
+var sensor_type @"temperature"
+var sensor_min_value -20
+var sensor_max_value 50
+var sensor_unit @"Celsius"
 ## Запуск тестов
 
 ```commandline
-python test.py
+python test.py 
 
 ```
 

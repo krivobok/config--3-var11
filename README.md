@@ -27,3 +27,5 @@ python main.py input.txt
 python test.py
 
 ```
+
+![Скриншот тестов](photo/img.png)
